@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 1 </title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h3> Registro De Matriculas</h3>
+            <br>
+            <br>
+            <div class="input">
+                <label for="">Nombre Estudiante</label>
+                <input type="text" class="caja" id="nombreEstudiante">
+            </div>
+            <br>
+            <div class="input">
+                <label for="texto">Cantidad de materias</label>
+                <input type="number" class="caja" id="cantidadMaterias">
+                <br>
+                <input type="button" value="Ingresar valores" class="button" onclick="crearNumeroMaterias()">
+            </div>
+            <br>
+            <div class="input" id="materias"></div>
+            <br>
+            <div>
+                <label for="texto">Valor fijos Papeleria $20.000 - Carnet $8.000</label>
+            </div>
+            <br>
+            <div>
+                <input type="button" value="Calcular costo total" class="button" onclick="calcularCostoTotal()">
+            </div>
+            <br>
+            <div class="input" id="total"></div>
+            <div class="input" id="total2"></div>
+
+        </form>
+    </div>
+</body>
+<script src="E1.js"></script>
+
+</html>

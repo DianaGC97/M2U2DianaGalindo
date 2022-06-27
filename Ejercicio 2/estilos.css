@@ -1,0 +1,27 @@
+body{
+    background-color: cornflowerblue;
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.valores{
+    width: 15%;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #2a0dac;
+}
+
+.button{
+    width: 15%;
+    padding: 5px;
+    background-color: rgb(115, 26, 231);
+    border-radius: 4px;
+    color: white;
+    border: 1px solid #ccc7e4;
+}
